@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/loader.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/form.css" />
     <script defer src="./new-ad.js" type="module"></script>
     <title>WallapopHacendado - Crear nuevo anuncio</title>
   </head>
@@ -19,7 +19,7 @@
         <input
           type="text"
           name="title"
-          placeholder="Título de tu anuncio"
+          placeholder="Título de tu anuncio *"
           required
           autofocus
         />
@@ -27,7 +27,7 @@
       <div>
         <textarea
           name="description"
-          placeholder="Descripción del anuncio"
+          placeholder="Descripción del anuncio *"
         ></textarea>
       </div>
 
@@ -37,13 +37,13 @@
           name="price"
           id="price"
           min="0"
-          placeholder="Precio del producto"
+          placeholder="Precio del producto *"
           required
         />
       </div>
       <br />
       <div>
-        <h2 style="margin: 0">Indica el tipo de anuncio:</h2>
+        <h2 style="margin: 0">Indica el tipo de anuncio:*</h2>
         <input type="radio" name="type" id="buy" value="Compra" required />
         <label for="buy">Compra</label>
       </div>
@@ -57,7 +57,9 @@
         <input type="text" name="image" id="image" />
       </div>
       <br />
+      <h5>Los campos * son obligatorios</h5>
       <button type="submit">Publicar</button>
+      
     </form>
   </body>
 </html>

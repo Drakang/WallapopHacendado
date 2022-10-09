@@ -1,3 +1,21 @@
+body {
+max-width: 20vh;
+display: grid;
+grid-template-columns: 2vh 60vh 2vh;
+grid-template-areas: 
+". tittle ."
+". adlist .";
+background-color: #525c66;
+}
+h1{
+  margin-left: 90vh;
+  color: #00385a;
+}
+main{
+  grid-area: adlits;
+}
+
+
 a {
   text-decoration: none;
 }
@@ -25,7 +43,7 @@ a {
 }
 
 #ad-list {
-  background-color: lightgoldenrodyellow;
+  background-color: rgb(188, 221, 231);
 }
 
 #ad-list > article {
@@ -40,3 +58,4 @@ input.ok {
 input.wrong {
   border: 2px solid red;
 }
+

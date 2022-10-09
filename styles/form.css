@@ -1,0 +1,61 @@
+body {
+  max-width: 20vh;
+  display: grid;
+  grid-template-columns: 2vh 60vh 2vh;
+  grid-template-areas: 
+  ". tittle ."
+  ". adlist .";
+  background-color: #525c66;
+  }
+h1{
+margin-left: 40px;
+grid-area: tittle;
+}
+.message{
+  max-width: 50%;
+  max-height: 50%;
+}
+form{
+  
+  grid-area: adlist;
+  margin-left: 30px;
+}
+form input,
+form textarea {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  color: #525c66;
+  font-size: 1em;
+  resize: none;
+}
+form label {
+  line-height: 200%;
+}
+
+form input[type="radio"] {
+  margin: 0;
+  line-height: 0;
+  flex-grow: 0;
+  order: 2;
+  width: initial;
+}
+
+.guardar {
+  display: block;
+  background-color: #0081cf;
+  padding: 10px 45px 10px 45px;
+  border: 0;
+  font-size: 1em;
+  color: white;
+}
+.guardar:hover {
+  background-color: #fcfcfc;
+  color: black;
+}
+
+textarea {
+  resize: none;
+}
