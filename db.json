@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "username": "david",
+      "password": "$2b$10$sWlfSaw8RQWlRlZ6jHZL4uiHwdg7beX3Fp/Vo/r6Q59GjnuJ1rzV.",
+      "id": 1
+    },
+    {
+      "username": "pepe",
+      "password": "$2b$10$g.PBOvXjLf0FY9gbrmKXy.lxB1GeYltFpBzDqJwGbkSxWLeIcQ5gC",
+      "id": 3
+    }
+  ],
+  "ads": [
+    {
+      "title": "asdas",
+      "content": "123123",
+      "price": "1111",
+      "type": "Venta",
+      "image": "https://i.postimg.cc/cJnR6sbY/Foto-movil.jpg",
+      "userId": 1,
+      "updatedAt": "2022-10-06T01:19:04.327Z",
+      "id": 1
+    },
+    {
+      "title": "flauta de pepe",
+      "content": "la flauta mia ",
+      "price": "15555",
+      "type": "Compra",
+      "image": "https://i.postimg.cc/YSzPDK15/descarga.jpg",
+      "userId": 3,
+      "updatedAt": "2022-10-06T01:22:42.939Z",
+      "id": 2
+    },
+    {
+      "title": "BMW M3",
+      "content": "Bmw M3 del 2020, 20000KM, sin apenas uso.",
+      "price": "20000",
+      "type": "Venta",
+      "image": "https://i.postimg.cc/vmLMpTPb/p90468105-highres-the-first-ever-bmw-m-1655903860.jpg",
+      "userId": 1,
+      "updatedAt": "2022-10-09T15:09:48.219Z",
+      "id": 3
+    }
+  ]
+}
